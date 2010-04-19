@@ -1,0 +1,10 @@
+[submodule "chang_fujita_b_1999"]
+	path = chang_fujita_b_1999
+	url = https://models.physiomeproject.org/workspace/chang_fujita_b_1999
+[submodule "mackenzie_loo_panayotova-heiermann_wright_1996"]
+	path = mackenzie_loo_panayotova-heiermann_wright_1996
+	url = https://models.physiomeproject.org/workspace/mackenzie_loo_panayotova-heiermann_wright_1996
+[submodule "eskandari_wright_loo_2005"]
+	path = eskandari_wright_loo_2005
+	url = https://models.physiomeproject.org/workspace/eskandari_wright_loo_2005
+
