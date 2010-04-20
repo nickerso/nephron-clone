@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:cmeta="http://www.cellml.org/metadata/1.0#" xmlns:bqs="http://www.cellml.org/bqs/1.0#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:cs="http://www.cellml.org/metadata/simulation/1.0#"
+	xmlns:cg="http://www.cellml.org/metadata/graphs/1.0#" xmlns:csim="http://cellml.sourceforge.net/CellMLSimulator/#">
+	<rdf:Description rdf:ID="andre">
+		<vCard:N rdf:parseType="Resource">
+			<vCard:Family>Nickerson</vCard:Family>
+			<vCard:Given>David</vCard:Given>
+		</vCard:N>
+		<vCard:EMAIL rdf:parseType="Resource">
+			<rdf:value>d.nickerson@auckland.ac.nz</rdf:value>
+			<rdf:type rdf:resource="http://imc.org/vCard/3.0#internet" />
+		</vCard:EMAIL>
+		<vCard:ORG rdf:parseType="Resource">
+			<vCard:Orgname>The University of Auckland</vCard:Orgname>
+			<vCard:Orgunit>Auckland Bioengineering Institute</vCard:Orgunit>
+		</vCard:ORG>
+	</rdf:Description>
+	<rdf:Description>
+		<csim:referenceDescription>
+			<rdf:Description rdf:ID="reference-description">
+				<dc:title>
+					Constituents of the Renal Nephron
+				</dc:title>
+				<dcterms:abstract rdf:parseType="Resource">
+					<rdf:value>
+						This reference description is attempting to document, validate, and collect models in the CellML model repository which are relevant to the renal nephron. As the whole nephron model is built this collection will grow.
+					</rdf:value>
+				</dcterms:abstract>
+				<dcterms:description rdf:parseType="Resource">
+					<rdf:value>
+						We are actively developing a whole nephron model and will use this workspace in the CellML model repository to collect all relevant models. As appropriate, the model validation studies and application will also be described here.
+					</rdf:value>
+				</dcterms:description>
+				<dc:creator rdf:resource="#andre" />
+				<dcterms:created rdf:parseType="Resource">
+					<dcterms:W3CDTF>2010-04-20</dcterms:W3CDTF>
+				</dcterms:created>
+				<dc:publisher>
+					Auckland Bioengineering Institute, The University of Auckland.
+				</dc:publisher>
+				<bqs:reference rdf:parseType="Resource">
+					<bqs:Pubmed_id>8955098</bqs:Pubmed_id>
+				</bqs:reference>
+				<bqs:reference rdf:parseType="Resource">
+					<bqs:Pubmed_id>16007500</bqs:Pubmed_id>
+				</bqs:reference>
+				<bqs:reference rdf:parseType="Resource">
+					<bqs:Pubmed_id>10362782</bqs:Pubmed_id>
+				</bqs:reference>
+				<cmeta:modification rdf:parseType="Resource">
+					<rdf:value>
+						Create an initial reference description for the SGLT1 and SGLT2 models used in the nephron interface.
+					</rdf:value>
+					<cmeta:modifier rdf:resource="#andre" />
+					<dcterms:modified rdf:parseType="Resource">
+						<dcterms:W3CDTF>2010-04-20</dcterms:W3CDTF>
+					</dcterms:modified>
+				</cmeta:modification>
+				<csim:tasks rdf:parseType="Collection">
+					<rdf:Description rdf:about="#SGLT1-task"/>
+					<rdf:Description rdf:about="#SGLT2-task"/>
+				</csim:tasks>
+			</rdf:Description>
+		</csim:referenceDescription>
+		<csim:task>
+			<rdf:Description rdf:ID="SGLT1-task">
+				<dc:title>
+					SGLT1 Model of Eskandari et al (2005)
+				</dc:title>
+				<dcterms:abstract rdf:parseType="Resource">
+					<rdf:value>
+						This will be a description of the SGLT1 model of Eskandari et al (2005)...
+					</rdf:value>
+				</dcterms:abstract>
+				<dcterms:description rdf:parseType="Resource">
+					<rdf:value>
+						Need to complete this bit.
+					</rdf:value>
+				</dcterms:description>
+				<dc:creator rdf:resource="#andre" />
+				<dcterms:created rdf:parseType="Resource">
+					<dcterms:W3CDTF>2010-04-20</dcterms:W3CDTF>
+				</dcterms:created>
+			</rdf:Description>
+		</csim:task>
+		<csim:task>
+			<rdf:Description rdf:ID="SGLT2-task">
+				<dc:title>
+					SGLT2 Model of Mackenzie et al (1996)
+				</dc:title>
+				<dcterms:abstract rdf:parseType="Resource">
+					<rdf:value>
+						Some initial validation of the CellML implementation of the Mackenzie et al (1996) model of the SGLT2 Na/Glucose cotransporter.
+					</rdf:value>
+				</dcterms:abstract>
+				<dcterms:description rdf:parseType="Resource">
+					<rdf:value>
+						Here we present the Mackenzie et al (1996) SGLT2 Na/Glucose cotransporter model in CellML. We include some initial model encoding validation studies demonstrating that our implementation of the model in CellML is capable of reproducing results as published in the original article.
+					</rdf:value>
+				</dcterms:description>
+				<dc:creator rdf:resource="#andre" />
+				<dcterms:created rdf:parseType="Resource">
+					<dcterms:W3CDTF>2009-07-06</dcterms:W3CDTF>
+				</dcterms:created>
+				<csim:graphs rdf:parseType="Collection">
+					<rdf:Description
+						rdf:about="mackenzie_loo_panayotova-heiermann_wright_1996/experiments/figure-03.xml#figure-03-a" />
+					<rdf:Description
+						rdf:about="mackenzie_loo_panayotova-heiermann_wright_1996/experiments/figure-03.xml#figure-03-b" />
+					<rdf:Description
+						rdf:about="mackenzie_loo_panayotova-heiermann_wright_1996/experiments/figure-03.xml#figure-03-c" />
+					<rdf:Description
+						rdf:about="mackenzie_loo_panayotova-heiermann_wright_1996/experiments/figure-03.xml#figure-03-d" />
+				</csim:graphs>
+			</rdf:Description>
+		</csim:task>
+	</rdf:Description>
+</rdf:RDF>
