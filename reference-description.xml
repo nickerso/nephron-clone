@@ -52,6 +52,15 @@
 				</bqs:reference>
 				<cmeta:modification rdf:parseType="Resource">
 					<rdf:value>
+						Adding more metadata for Mackenzie model.
+					</rdf:value>
+					<cmeta:modifier rdf:resource="#andre" />
+					<dcterms:modified rdf:parseType="Resource">
+						<dcterms:W3CDTF>2010-04-21</dcterms:W3CDTF>
+					</dcterms:modified>
+				</cmeta:modification>
+				<cmeta:modification rdf:parseType="Resource">
+					<rdf:value>
 						Create an initial reference description for the SGLT1 and SGLT2 models used in the nephron interface.
 					</rdf:value>
 					<cmeta:modifier rdf:resource="#andre" />
