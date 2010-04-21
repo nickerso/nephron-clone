@@ -77,28 +77,34 @@
 		<csim:task>
 			<rdf:Description rdf:ID="SGLT1-task">
 				<dc:title>
-					SGLT1 Model of Eskandari et al (2005)
+					Eskandari et al (2005)
 				</dc:title>
 				<dcterms:abstract rdf:parseType="Resource">
 					<rdf:value>
-						This will be a description of the SGLT1 model of Eskandari et al (2005)...
+						Some initial validation of the CellML implementation of the Eskandari et al (2005) model of the SGLT1 Na/Glucose cotransporter.
 					</rdf:value>
 				</dcterms:abstract>
 				<dcterms:description rdf:parseType="Resource">
 					<rdf:value>
-						Need to complete this bit.
+						Here we present the Eskandari et al (2005) SGLT1 Na/Glucose cotransporter model in CellML. We include some initial model encoding validation studies demonstrating that our implementation of the model in CellML is capable of reproducing results as published in the original article.
 					</rdf:value>
 				</dcterms:description>
 				<dc:creator rdf:resource="#andre" />
 				<dcterms:created rdf:parseType="Resource">
-					<dcterms:W3CDTF>2010-04-20</dcterms:W3CDTF>
+					<dcterms:W3CDTF>2010-04-21</dcterms:W3CDTF>
 				</dcterms:created>
+				<csim:graphs rdf:parseType="Collection">
+					<rdf:Description
+						rdf:about="eskandari_wright_loo_2005/experiments/figure-03.xml#SGLT1-figure-03-a" />
+					<rdf:Description
+						rdf:about="eskandari_wright_loo_2005/experiments/figure-03.xml#SGLT1-figure-03-b" />
+				</csim:graphs>
 			</rdf:Description>
 		</csim:task>
 		<csim:task>
 			<rdf:Description rdf:ID="SGLT2-task">
 				<dc:title>
-					SGLT2 Model of Mackenzie et al (1996)
+					Mackenzie et al (1996)
 				</dc:title>
 				<dcterms:abstract rdf:parseType="Resource">
 					<rdf:value>
@@ -116,13 +122,13 @@
 				</dcterms:created>
 				<csim:graphs rdf:parseType="Collection">
 					<rdf:Description
-						rdf:about="mackenzie_loo_panayotova-heiermann_wright_1996/experiments/figure-03.xml#figure-03-a" />
+						rdf:about="mackenzie_loo_panayotova-heiermann_wright_1996/experiments/figure-03.xml#SGLT2-figure-03-a" />
 					<rdf:Description
-						rdf:about="mackenzie_loo_panayotova-heiermann_wright_1996/experiments/figure-03.xml#figure-03-b" />
+						rdf:about="mackenzie_loo_panayotova-heiermann_wright_1996/experiments/figure-03.xml#SGLT2-figure-03-b" />
 					<rdf:Description
-						rdf:about="mackenzie_loo_panayotova-heiermann_wright_1996/experiments/figure-03.xml#figure-03-c" />
+						rdf:about="mackenzie_loo_panayotova-heiermann_wright_1996/experiments/figure-03.xml#SGLT2-figure-03-c" />
 					<rdf:Description
-						rdf:about="mackenzie_loo_panayotova-heiermann_wright_1996/experiments/figure-03.xml#figure-03-d" />
+						rdf:about="mackenzie_loo_panayotova-heiermann_wright_1996/experiments/figure-03.xml#SGLT2-figure-03-d" />
 				</csim:graphs>
 			</rdf:Description>
 		</csim:task>
