@@ -52,6 +52,33 @@
 				</bqs:reference>
 				<cmeta:modification rdf:parseType="Resource">
 					<rdf:value>
+						Adding further graphs from the Eskandari model.
+					</rdf:value>
+					<cmeta:modifier rdf:resource="#andre" />
+					<dcterms:modified rdf:parseType="Resource">
+						<dcterms:W3CDTF>2010-04-22</dcterms:W3CDTF>
+					</dcterms:modified>
+				</cmeta:modification>
+				<cmeta:modification rdf:parseType="Resource">
+					<rdf:value>
+						Adding more structure to the Eskandari description.
+					</rdf:value>
+					<cmeta:modifier rdf:resource="#andre" />
+					<dcterms:modified rdf:parseType="Resource">
+						<dcterms:W3CDTF>2010-04-22</dcterms:W3CDTF>
+					</dcterms:modified>
+				</cmeta:modification>
+				<cmeta:modification rdf:parseType="Resource">
+					<rdf:value>
+						Adding initial graphs from Eskandari et al (2005) model.
+					</rdf:value>
+					<cmeta:modifier rdf:resource="#andre" />
+					<dcterms:modified rdf:parseType="Resource">
+						<dcterms:W3CDTF>2010-04-21</dcterms:W3CDTF>
+					</dcterms:modified>
+				</cmeta:modification>
+				<cmeta:modification rdf:parseType="Resource">
+					<rdf:value>
 						Adding more metadata for Mackenzie model.
 					</rdf:value>
 					<cmeta:modifier rdf:resource="#andre" />
@@ -93,11 +120,72 @@
 				<dcterms:created rdf:parseType="Resource">
 					<dcterms:W3CDTF>2010-04-21</dcterms:W3CDTF>
 				</dcterms:created>
+				<csim:tasks rdf:parseType="Collection">
+					<rdf:Description rdf:about="#SGLT1-figure-02-task"/>
+					<rdf:Description rdf:about="#SGLT1-figure-03-task"/>
+					<rdf:Description rdf:about="#SGLT1-figure-04-task"/>
+				</csim:tasks>
+			</rdf:Description>
+		</csim:task>
+		<csim:task>
+			<rdf:Description rdf:ID="SGLT1-figure-02-task">
+				<dc:title>
+					Eskandari et al (2005), Figure 2
+				</dc:title>
+				<dcterms:abstract rdf:parseType="Resource">
+					<rdf:value>
+						Reproducing the results given in Figure 2(b) of the original article.
+					</rdf:value>
+				</dcterms:abstract>
+				<dc:creator rdf:resource="#andre" />
+				<dcterms:created rdf:parseType="Resource">
+					<dcterms:W3CDTF>2010-04-22</dcterms:W3CDTF>
+				</dcterms:created>
+				<csim:graphs rdf:parseType="Collection">
+					<rdf:Description
+						rdf:about="eskandari_wright_loo_2005/experiments/figure-02.xml#SGLT1-figure-02-b" />
+				</csim:graphs>
+			</rdf:Description>
+		</csim:task>
+		<csim:task>
+			<rdf:Description rdf:ID="SGLT1-figure-03-task">
+				<dc:title>
+					Eskandari et al (2005), Figure 3
+				</dc:title>
+				<dcterms:abstract rdf:parseType="Resource">
+					<rdf:value>
+						Reproducing the results given in Figure 3 of the original article.
+					</rdf:value>
+				</dcterms:abstract>
+				<dc:creator rdf:resource="#andre" />
+				<dcterms:created rdf:parseType="Resource">
+					<dcterms:W3CDTF>2010-04-22</dcterms:W3CDTF>
+				</dcterms:created>
 				<csim:graphs rdf:parseType="Collection">
 					<rdf:Description
 						rdf:about="eskandari_wright_loo_2005/experiments/figure-03.xml#SGLT1-figure-03-a" />
 					<rdf:Description
 						rdf:about="eskandari_wright_loo_2005/experiments/figure-03.xml#SGLT1-figure-03-b" />
+				</csim:graphs>
+			</rdf:Description>
+		</csim:task>
+		<csim:task>
+			<rdf:Description rdf:ID="SGLT1-figure-04-task">
+				<dc:title>
+					Eskandari et al (2005), Figure 4
+				</dc:title>
+				<dcterms:abstract rdf:parseType="Resource">
+					<rdf:value>
+						Reproducing the results given in Figure 4 of the original article.
+					</rdf:value>
+				</dcterms:abstract>
+				<dc:creator rdf:resource="#andre" />
+				<dcterms:created rdf:parseType="Resource">
+					<dcterms:W3CDTF>2010-04-22</dcterms:W3CDTF>
+				</dcterms:created>
+				<csim:graphs rdf:parseType="Collection">
+					<rdf:Description
+						rdf:about="eskandari_wright_loo_2005/experiments/figure-04.xml#SGLT1-figure-04" />
 				</csim:graphs>
 			</rdf:Description>
 		</csim:task>
